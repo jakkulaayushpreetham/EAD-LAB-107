@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+
+    <span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: medium;">Student
+        Registration
+        Form</span>
+
+    <form>
+        <p>Student Name</p>
+        <input type="text" name="student_name"><br><br>
+        <p>Roll Number</p>
+        <input type="text" name="roll_number"><br><br>
+        <p>Email</p>
+        <input type="email" name="email"><br><br>
+        <p>Phone Number</p>
+        <input type="tel" name="phone"><br><br>
+        <p>Gender</p>
+        <input type="radio" name="gender" value="Male">Male<br>
+        <input type="radio" name="gender" value="Female">Female<br><br>
+        <p>Branch Information</p>
+        <select name="branch">
+            <option value="CSE">Computer Science</option>
+            <option value="IT">Information Technology</option>
+            <option value="ME">Mechanical</option>
+            <option value="EEE">Electrical Electronics Engineering</option>
+        </select><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

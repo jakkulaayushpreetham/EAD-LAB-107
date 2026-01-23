@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Feedback Form !!</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(-45deg, #6a11cb, #2575fc, #ff6a00, #fcb045);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend> User Feedback Form !! </legend>
+        <form>
+            <p>Student Name</p>
+            <input type="text" name="student_name"><br><br>
+            <p>Roll Number</p>
+            <input type="text" name="roll_number"><br><br>
+            <p>Email</p>
+            <input type="email" name="email"><br><br>
+            <p>Phone Number</p>
+            <input type="tel" name="phone"><br><br>
+            <p>Gender</p>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br><br>
+            <p>Branch Information</p>
+            <select name="branch">
+                <option value="CSE">Computer Science</option>
+                <option value="IT">Information Technology</option>
+                <option value="ME">Mechanical</option>
+                <option value="EEE">Electrical Electronics Engineering</option>
+            </select><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+</body>
+
+</html>
